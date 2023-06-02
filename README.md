@@ -20,6 +20,8 @@ This project uses the King County House Sales dataset obtained from  `kc_house_d
 To prepare the data for analysis, we follow a systematic approach. First, we import the dataset and the necessary libraries to facilitate the analysis. We then carefully examine the dataset's contents and perform data cleaning procedures to eliminate any missing values and log-transform the price variable to make it more suitable for our analysis.
 The project thereafter employs linear regression methods to develop a comprehensive model for predicting house prices. To begin, we create a baseline model using simple linear regression to examine the relationship between `price` and `square foot living` since it has the highest correlation to price.
 
+![correlation](https://github.com/NazraJN/dsc-phase-2-project-v2-3/blob/main/correlation_matrix.JPG)
+
 Subsequent iterations of the model build upon this baseline, gradually incorporating additional feature variables. The final model utilizes multiple linear regression to examine the relationship between price and `sqft_living`, `bedrooms`, `bathrooms`, `waterfront`, `sqft_lot`, `floors`, `yr_built`, `condition`, `grade`, `view`, and `Renovated`. 
 
 By iteratively refining the model, we aim to achieve improved accuracy and robustness in predicting housing prices based on the selected set of features.
