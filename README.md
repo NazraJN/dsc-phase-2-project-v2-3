@@ -1,6 +1,6 @@
 # King’s County Home Sales dataset analysis
 
-Author: Nazra Nyangwara
+Author: GROUP 1
 
 ## Project Overview
 
